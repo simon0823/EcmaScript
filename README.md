@@ -1,5 +1,4 @@
 # ECMAScript
-## ECMAScript?
 
 EcmaScript는 European Computer Manufacturers Association(ECMA, 현 ECMA International)에서 ECMA-262 기술 규격에 정의된 자바스크립트 표준 규격이다.
 
