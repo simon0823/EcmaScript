@@ -1,3 +1,5 @@
+//Template Literals in ES6
+
 var first = 'Seonghyun';
 var last = 'Ryu';
 var id = 'simon0823';
