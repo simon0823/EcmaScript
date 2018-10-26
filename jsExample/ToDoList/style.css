@@ -1,0 +1,23 @@
+* {margin: 0 auto;padding: 0;box-sizing: border-box;}
+
+.wrapper { width: 960px; }
+
+header{ padding: 10px 0px;background-color: #f44336; }
+header > h2{text-align: center;color: #fff;}
+
+header > div { text-align: center;padding: 20px; }
+header > div > input { width:80%;padding: 10px;text-align: center;border: none;float: left; }
+header > div > button { width: 20%;font-size: 14px;padding: 7px 0px;border: none;color: #fff;background-color: transparent; }
+header > div > button:hover{ text-decoration: underline; }
+
+.listContent{ width: 960px;padding: 15px 30px;position: relative;transition: all 0.5s;list-style: none; }
+.listContent:nth-child(odd){ background-color: #f9f9f9; }
+.listContent:nth-child(even){ background-color: #eee; }
+.listContent:hover{ background-color: #bbb; }
+
+.checkbox{ margin-right: 20px; }
+
+.listTime{ position: absolute;right: 80px;font-size: 14px; }
+
+.listDel:before{ content: '×';font-size: 14px;font-weight: bold; }
+.listDel{ float: right;cursor: pointer; }
